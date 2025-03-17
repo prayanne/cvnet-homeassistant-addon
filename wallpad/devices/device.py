@@ -48,9 +48,9 @@ class Device:
         self.commands = device_info['commands']
         self.discovery_topic = f'homeassistant/{self.component}/{topic}/{self.key}/config'
         self.manufacturer_info = {
-            "manufacturer": "제일풍경채",
+            "manufacturer": "부평코오롱하늘채",
             "model": "CSH-5100",
             "name": "CVNET 월패드",
             "ids": "cvnet smart wallpad",
-            "sw_version": "0.1"
+            "sw_version": "0.1.1"
         }

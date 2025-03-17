@@ -43,13 +43,13 @@ logging:
       - console
 
 mqtt:
-  host: '192.168.0.58'
+  host: '192.168.1.106'
   port: 1883
-  user: admin
-  password: admin
-  topic: 'cvnet'
+  user: 'ew11'
+  password: 'ew111234'
+  topic: 'ew11'
 ew11:
-  host: '192.168.0.62'
+  host: '192.168.1.100'
   port: 8899
 
 devices:
@@ -78,7 +78,7 @@ devices:
         temp_checksum: 140
       state_packet: F7 20 01 4A 81
       state_position: 7
-    - name: 지율이방 보일러
+    - name: 윤호방 보일러
       commands:
         cmd_heat:
           - F7 20 43 01 11 92 00 00 00 00 00 00 00 07 AA
@@ -170,6 +170,16 @@ devices:
           - F7 20 22 01 11 00 00 00 00 00 00 00 00 54 AA
         cmd_on_ack: F7 20 01 22 9F 01 00 00 00 00 00 00 00 E3 AA
         cmd_off_ack: F7 20 01 22 9F 00 00 00 00 00 00 00 00 E2 AA
+      state_packet: F7 20 01 22 81
+      state_position: 5
+    - name: 윤호방 메인 조명
+      commands:
+        cmd_on:
+          - F7 20 23 01 11 01 00 00 00 00 00 00 00 56 AA
+        cmd_off:
+          - F7 20 23 01 11 00 00 00 00 00 00 00 00 55 AA
+        cmd_on_ack: F7 20 01 23 9F 01 00 00 00 00 00 00 00 E3 AA
+        cmd_off_ack: F7 20 01 23 9F 00 00 00 00 00 00 00 00 E2 AA
       state_packet: F7 20 01 22 81
       state_position: 5
     - name: 엘리베이터
