@@ -180,7 +180,7 @@ devices:
           - F7 20 23 01 11 00 00 00 00 00 00 00 00 55 AA
         cmd_on_ack: F7 20 01 23 9F 01 00 00 00 00 00 00 00 E3 AA
         cmd_off_ack: F7 20 01 23 9F 00 00 00 00 00 00 00 00 E2 AA
-      state_packet: F7 20 01 22 81
+      state_packet: F7 20 01 23 81
       state_position: 5
     - name: 엘리베이터
       commands:

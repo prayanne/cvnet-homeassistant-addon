@@ -1,6 +1,6 @@
 {
   "name": "CVNet Addon",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "slug": "cvnet",
   "description": "My Python-based CVNet Add-on",
   "startup": "services",
