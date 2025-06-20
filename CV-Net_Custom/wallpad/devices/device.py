@@ -50,7 +50,7 @@ class Device:
         self.manufacturer_info = {
             "manufacturer": "부평코오롱하늘채",
             "model": "CSH-5100",
-            "name": "CVNET 월패드",
+            "name": "CVNET",
             "ids": "cvnet smart wallpad",
-            "sw_version": "0.1.1"
+            "sw_version": "0.1.2"
         }

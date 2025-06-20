@@ -1,8 +1,8 @@
 {
   "name": "CVNet Addon",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "slug": "cvnet",
-  "description": "My Python-based CVNet Add-on",
+  "description": "Python-based CVNet Add-on",
   "startup": "services",
   "boot": "auto",
   "host_network": true,
