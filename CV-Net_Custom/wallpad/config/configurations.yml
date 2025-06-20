@@ -43,7 +43,7 @@ logging:
       - console
 
 mqtt:
-  host: '192.168.1.191'
+  host: 'localhost'
   port: 1883
   user: 'ew11'
   password: 'ew111234'
