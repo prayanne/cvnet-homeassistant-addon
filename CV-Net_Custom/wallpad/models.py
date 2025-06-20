@@ -9,7 +9,7 @@ _LOGGER = logging.getLogger('models')
 
 @dataclasses.dataclass
 class Mqtt:
-    host: str = "192.168.1.106"
+    host: str = "192.168.1.191"
     port: int = 1883
     user: str = "ew11"
     password: str = "ew111234"
