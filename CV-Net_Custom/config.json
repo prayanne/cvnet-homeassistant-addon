@@ -1,0 +1,13 @@
+{
+  "name": "CVNet Addon",
+  "version": "1.0.0",
+  "slug": "cvnet",
+  "description": "My Python-based CVNet Add-on",
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "arch": ["amd64", "aarch64"],
+  "ports": {
+    "5000/tcp": 5000
+  }
+}

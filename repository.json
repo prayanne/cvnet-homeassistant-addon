@@ -1,5 +1,5 @@
 {
-  "name": "CV-Net_Custom",
-  "url": "https://github.com/prayanne/cvnet-homeassistant-addon.git",
+  "name": "CVNet Home Assistant Add-ons",
+  "url": "https://github.com/prayanne/cvnet-homeassistant-addon",
   "maintainer": "prayanne"
 }
