@@ -27,7 +27,7 @@ class Mqtt:
 
 @dataclasses.dataclass
 class EW11:
-    host: str = '192.168.1.100'
+    host: str = '192.168.10.110'
     port: int = 8899
 
     def __init__(self, ew11_config):

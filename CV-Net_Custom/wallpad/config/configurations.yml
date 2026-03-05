@@ -49,7 +49,7 @@ mqtt:
   password: 'ew111234'
   topic: 'ew11'
 ew11:
-  host: '192.168.1.100'
+  host: '192.168.10.110'
   port: 8899
 
 devices:
